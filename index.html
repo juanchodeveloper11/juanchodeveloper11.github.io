@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empanadas de la Casa - Deliciosas y Tradicionales</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h2 class="intro-title">Introducción</h2>
+      <h1 class="main-title">EMPANADAS DE LA CASA</h1>
+      <p class="description">Esta página es para que conozcan nuestro producto que en este caso serían <strong>empanadas artesanales</strong> hechas con los mejores ingredientes y mucho amor.</p>
+    </header>
+
+    <section class="product-section">
+      <h2 class="section-title">Nuestro Producto</h2>
+      
+      <div class="image-container">
+        <img src="https://th.bing.com/th/id/OIP.yf4tqJ5OenpazODnWWdLnAHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7" alt="Deliciosas empanadas caseras" class="product-image">
+      </div>
+      
+      <div class="product-info">
+        <strong>¡Combo completo!</strong> Nuestras empanadas vienen acompañadas de una refrescante gaseosa de tu elección.
+      </div>
+
+      <h3 class="section-title">Nuestra Carta de Productos</h3>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Empanadas</th>
+              <th>Gaseosas</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Papa, carne y pollo</td>
+              <td>Cuatro, 7up, Coca Cola</td>
+              <td class="price">$1.800 y $2.400</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="qr-section">
+      <h2 class="section-title">Genera tu Código QR</h2>
+      <p style="margin-bottom: 20px; color: #666;">Crea un código QR para compartir tu enlace favorito</p>
+      
+      <div class="app">
+        <input type="text" id="url" placeholder="https://ejemplo.com" class="qr-input">
+        <button id="btn" class="qr-button">Generar código QR</button>
+        <div id="qrcode" class="qrcode"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+</html>
