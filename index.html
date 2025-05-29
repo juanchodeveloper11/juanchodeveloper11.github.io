@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi página de emprendimiento</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h2 class="h2-class">Introducción</h2>
+  <h2 id="element-for-modify">EMPANADAS DE LA CASA.</h2>
+  <p>Esta página es para que conozcan nuestro producto que en este caso serían <b>empanadas</b></p>
+  <p><b>Imagen</b></p>
+  <center>
+    <img src="https://th.bing.com/th/id/OIP.yf4tqJ5OenpazODnWWdLnAHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7=" alt="Empanadas">
+  </center>
+  <p>Este también incluye gaseosa</p>
+  <h2>Esta es la tabla de los productos</h2>
+  <center>
+    <table border="5">
+      <tr>
+        <td><b>Empanadas</b></td>
+        <td><b>Gaseosas</b></td>
+        <td><b>Precio</b></td>
+      </tr>
+      <tr>
+        <td>Papa, carne y pollo</td>
+        <td>Cuatro, 7up, Coca Cola</td>
+        <td>$1.800 y $2.400</td>
+      </tr>
+    </table>
+  </center>
+  <center>
+    <div class="app">
+      <input type="text" id="url" placeholder="https://example.com">
+      <button id="btn">Generar código QR</button>
+      <div id="qrcode" class="qrcode"></div>
+    </div>
+  </center>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+</html>
